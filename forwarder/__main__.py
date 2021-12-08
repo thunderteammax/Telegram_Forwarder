@@ -8,7 +8,7 @@ from forwarder import (API_KEY, CERT_PATH, IP_ADDRESS, LOGGER, OWNER_ID, PORT,
 from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
-Hey {}, I'm {}!
+Hey {}, I'm {}
 I'm a bot used to forward messages from one chat to another.
 
 To obtain a list of commands, use /help.
