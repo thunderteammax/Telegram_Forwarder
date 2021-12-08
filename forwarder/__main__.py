@@ -8,7 +8,7 @@ from forwarder import (API_KEY, CERT_PATH, IP_ADDRESS, LOGGER, OWNER_ID, PORT,
 from forwarder.modules import ALL_MODULES
 
 PM_START_TEXT = """
-Hey {}, I'm {}!
+Hey {}, I'm Astro Forwarder 
 I'm a bot used to forward messages from one chat to another.
 
 To obtain a list of commands, use /help.
@@ -37,7 +37,7 @@ def start(update: Update, _):
             parse_mode=ParseMode.HTML,
         )
     else:
-        message.reply_text("I'm up and running!")
+        message.reply_text("I'm Still Alive")
 
 
 def help(update: Update, _):
